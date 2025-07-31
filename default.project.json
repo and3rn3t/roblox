@@ -1,0 +1,33 @@
+{
+  "name": "spectacular-roblox-obby",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "ObbyConfig": {
+        "$path": "src/ReplicatedStorage/ObbyConfig.lua"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "ObbyManager": {
+        "$path": "src/ServerScriptService/ObbyManager.lua"
+      },
+      "ObbyStages": {
+        "$path": "src/ServerScriptService/ObbyStages.lua"
+      },
+      "ObbySetup": {
+        "$path": "src/ServerScriptService/ObbySetup.lua"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "ObbyClient": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/ObbyClient.lua"
+        }
+      }
+    }
+  }
+}

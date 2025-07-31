@@ -12,3 +12,52 @@ profile.svg
 
 # Time trace
 trace.json
+
+# Roblox Studio Files
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+
+# Build Output
+build/
+dist/
+
+# Rojo Build Files
+*.rojo.toml
+rojo.toml
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Temporary Files
+tmp/
+temp/
+.tmp/
+
+# Node Modules (if using any JS tools)
+node_modules/
+
+# Package Lock Files
+package-lock.json
+yarn.lock
+
+# Roblox Plugin Files
+*.rbxl.lock
+
+# Local Configuration
+.env
+.env.local
